@@ -1,0 +1,343 @@
+# sciteproj pot
+# Copyright (C) 2014, Andreas Rönnquist <gusnan@gusnan.se>
+# This file is distributed under the same license as the sciteproj package.
+# Andreas Rönnquist <gusnan@gusnan.se>, 2014.
+# TEDONE <regis.tedone@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sciteproj 1.00\n"
+"Report-Msgid-Bugs-To: gusnan@gusnan.se\n"
+"POT-Creation-Date: 2014-08-04 20:02+0200\n"
+"PO-Revision-Date: 2017-04-05 10:08+0200\n"
+"Last-Translator: TEDONE <regis.tedone@gmail.com>\n"
+"Language-Team: français <regis.tedone@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural= n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: about.c:194
+msgid "Information"
+msgstr "Information"
+
+#: about.c:195
+msgid "License"
+msgstr "License"
+
+#: about.c:203
+msgid ""
+"SciteProj is free software: you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"SciteProj is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"SciteProj.  If not, see <http://www.gnu.org/licenses/>.\n"
+msgstr ""
+"SciteProj est un logiciel gratuit: vous pouvez le redistribuer et / ou le "
+"modifier selon les termes de la Licence Publique Générale GNU publiée par "
+"Free Software Foundation, soit la version 3 de la Licence, soit (à votre "
+"choix) toute version ultérieure.\n"
+"\n"
+"SciteProj est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE "
+"GARANTIE; Sans même la garantie implicite de QUALITÉ MARCHANDE ou d'APTITUDE "
+"À UN USAGE PARTICULIER. Voir la licence publique générale GNU pour plus de "
+"détails.\n"
+"\n"
+"Vous devriez avoir reçu une copie de la Licence Publique Générale GNU avec "
+"SciteProj. Dans le cas contraire, voir <http://www.gnu.org/licenses/>.\n"
+
+#: about.c:250
+msgid "SciteProj is based on ScitePM by"
+msgstr "SciteProj est basé sur ScitePM par"
+
+#: about.c:251
+msgid "Many thanks to"
+msgstr "Un grand merci à "
+
+#: about.c:252
+msgid ""
+"For more information about SciteProj, see the README file that\n"
+"is provided with this package."
+msgstr ""
+"Pour plus d'informations sur SciteProj, consultez le fichier README qui\n"
+"est fourni avec ce paquet."
+
+#: about.c:385
+#, c-format
+msgid "version %s"
+msgstr "version %s"
+
+#: gui.c:142
+msgid "[UNTITLED]"
+msgstr "[SANS_TITRE]"
+
+#: gui.c:775 recent_files.c:551 scite_utils.c:216
+#, c-format
+msgid "Opened %s"
+msgstr "Ouvert %s"
+
+#: gui.c:788 gui_callbacks.c:96 recent_files.c:564 recent_files.c:605
+#, c-format
+msgid ""
+"Could not open selected file: \n"
+"\n"
+"%s"
+msgstr ""
+"Impossible d'ouvrir le fichier : \n"
+"\n"
+"%s"
+
+#: main.c:69
+msgid "Show program version and quit"
+msgstr "Montrer la version du programme et quitter"
+
+#: main.c:71
+msgid "Set a filename for the instance of SciTE to open"
+msgstr "Définir un nom de fichier pour l'instance de SciTE à ouvrir"
+
+#: main.c:71
+msgid "SCITE_FILENAME"
+msgstr "SCITE_FILENAME"
+
+#: main.c:73
+msgid "Load a folder"
+msgstr "Charger un dossier"
+
+#: main.c:75
+msgid "Start SciTE automatically with SciteProj"
+msgstr "Démarrer SciTE automatiquement avec SciteProj"
+
+#: main.c:86
+msgid "SciTE Project Manager"
+msgstr "SciTE Gestionnaire de projet"
+
+#: main.c:93
+#, c-format
+msgid "option parsing failed: %s"
+msgstr "L'analyse des options a échoué : %s"
+
+#: main.c:137
+#, c-format
+msgid "A folder is expected as parameter to sciteproj..."
+msgstr "Un dossier est attendu comme paramètre pour Sciteproj..."
+
+#: main.c:176 main.c:186
+msgid ""
+"Environment variable exists, but doesn't point to a folder containing scite."
+msgstr ""
+"La variable d'environnement existe, mais ne pointe pas vers un dossier "
+"contenant SciTE."
+
+#: main.c:203
+#, c-format
+msgid "Couldn't find a SciTE executable named '%s'!\n"
+msgstr "Impossible de trouver un exécutable de SciTE nommé '%s'!\n"
+
+#: main.c:204
+msgid "Checking for SciTE in the standard locations instead.\n"
+msgstr "Vérification de SciTE plutôt à son emplacements standard.\n"
+
+#: main.c:217
+msgid ""
+"Warning! Couldn't locate SciTE!\n"
+"Program will start, but you won't be able to open SciTE to edit files."
+msgstr ""
+"Attention! Impossible de localiser SciTE!\n"
+"Le programme démarrera, mais vous ne pourrez pas ouvrir SciTE pour éditer "
+"des fichiers."
+
+#: main.c:225
+#, c-format
+msgid "Could not setup the gui: %s"
+msgstr "Impossible de configurer l'interface : %s"
+
+#: main.c:231
+#, c-format
+msgid "Not a valid folder!"
+msgstr "Dossier non valide !"
+
+#: menus.c:117
+msgid "_File"
+msgstr "_Fichier"
+
+#: menus.c:118
+msgid "_Edit"
+msgstr "_Editer"
+
+#: menus.c:119
+msgid "_View"
+msgstr "_Voir"
+
+#: menus.c:120
+msgid "_Help"
+msgstr "_Aide"
+
+#: menus.c:129
+msgid "_Quit"
+msgstr "_Quitter"
+
+#: menus.c:138
+msgid "Edit properties"
+msgstr "Éditer les propriétés"
+
+#: menus.c:144
+msgid "Show Recent Files"
+msgstr "Montrer les fichiers récents"
+
+#: menus.c:151
+msgid "About"
+msgstr "A Propos"
+
+#: menus.c:164 menus.c:236
+msgid "Open file in SciTE"
+msgstr "Ouvrir le fichier avec SciTE"
+
+#: menus.c:167 menus.c:238
+msgid "Copy filename to clipboard"
+msgstr "Copier le fichier dans le presse-papier"
+
+#: menus.c:173 menus.c:210 menus.c:239
+msgid "Properties"
+msgstr "Propriétés"
+
+#: menus.c:183
+msgid "Sort folder contents"
+msgstr "Classer le contenu du dossier"
+
+#: menus.c:185
+msgid "Sort ascending by name"
+msgstr "Classement croissant par nom"
+
+#: menus.c:186
+msgid "Sort descending by name"
+msgstr "Classement décroissant par nom"
+
+#: menus.c:188
+msgid "Sort ascending by extension"
+msgstr "Classement croissant par extension"
+
+#: menus.c:189
+msgid "Sort descending by extension"
+msgstr "Classement décroissant par extension"
+
+#: menus.c:212
+msgid "Update folder content"
+msgstr "Mettre à jour le contenu du dossier"
+
+#: menus.c:237
+msgid "Remove file from this list"
+msgstr "Enlever le fichier de la liste"
+
+#: properties_dialog.c:64 properties_dialog.c:67
+msgid "Group Properties"
+msgstr "Grouper les propriétés"
+
+#: properties_dialog.c:65 properties_dialog.c:159
+msgid "OK"
+msgstr "OK"
+
+#: properties_dialog.c:72
+msgid "Group name:"
+msgstr "Nom de groupe :"
+
+#: properties_dialog.c:73
+msgid "Full folder:"
+msgstr "Dossier complet :"
+
+#: properties_dialog.c:158 properties_dialog.c:161
+msgid "File Properties"
+msgstr "Propriétés du fichier"
+
+#: properties_dialog.c:185
+msgid "Filename:"
+msgstr "Nom de fichier :"
+
+#: properties_dialog.c:186
+msgid "Path:"
+msgstr "Chemin :"
+
+#: properties_dialog.c:187
+msgid "File size:"
+msgstr "Taille de fichier :"
+
+#: recent_files.c:177
+msgid "Recently opened files:"
+msgstr "Fichier ouverts récemment :"
+
+#: remove.c:218 remove.c:223
+msgid "Error!!!\n"
+msgstr "Erreur  !!!\n"
+
+#: remove.c:373
+msgid "Delete all selected items?"
+msgstr "Supprimer tous les éléments sélectionnés ?"
+
+#: remove.c:404
+#, c-format
+msgid "Delete file '%s'?"
+msgstr "Supprimer le fichier '%s' ?"
+
+#: remove.c:407
+msgid "Delete file?"
+msgstr "Supprimer le fichier ?"
+
+#: remove.c:437
+#, c-format
+msgid "Delete folder '%s' and any contained files?"
+msgstr "Supprimer le dossier '%s' et tous ses fichiers contenus ?"
+
+#: remove.c:440
+msgid "Delete folder and any contained files?"
+msgstr "Supprimer le dossier et tous ses fichiers contenus ?"
+
+#: remove.c:468
+#, c-format
+msgid ""
+"Could not delete the selected node: \n"
+"\n"
+"%s"
+msgstr ""
+"Impossible de supprimer le nœud sélectionné:\n"
+"\n"
+"%s"
+
+#: scite_utils.c:190
+#, c-format
+msgid "Closed %s"
+msgstr "Fermé %s"
+
+#: scite_utils.c:199
+msgid "Closed SciTE"
+msgstr "SciTE fermé"
+
+#: scite_utils.c:206
+#, c-format
+msgid "Switched to %s"
+msgstr "Basculer vers %s"
+
+#: scite_utils.c:589
+msgid "Connecting to Scite...."
+msgstr "Connexion à SciTE..."
+
+#: scite_utils.c:638
+msgid "Launched SciTE"
+msgstr "SciTE chargé"
+
+#: script.c:144
+#, c-format
+msgid "Error: %s"
+msgstr "Erreur : %s"
+
+#: statusbar.c:57
+msgid "Welcome to SciteProj\n"
+msgstr "Bienvenue dans SciteProj\n"
